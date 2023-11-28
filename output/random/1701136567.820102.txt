@@ -1,0 +1,12 @@
+length of images list is :  4
+starting_image is :  4
+highest_feature_matching_score :  237
+Required_image :  2
+length of images list is :  3
+starting_image is :  3
+highest_feature_matching_score :  91
+Required_image :  1
+length of images list is :  2
+starting_image is :  2
+highest_feature_matching_score :  74
+Required_image :  1

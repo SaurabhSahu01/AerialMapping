@@ -1,0 +1,9 @@
+length of images list is :  4
+max match :  237
+indices - 4 2
+length of images list is :  3
+max match :  103
+indices - 1 2
+length of images list is :  2
+max match :  59
+indices - 1 2
