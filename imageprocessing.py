@@ -162,7 +162,7 @@ class ImageStitching:
 
         # cv2.imshow("final stitched image : ", images[0])
         # cv2.waitKey(0)
-        cv2.imwrite(f"./output/cluster/{current_time}.jpeg", images[0])
+        cv2.imwrite(f"./output/cluster/final.jpeg", images[0])
 
     def stitch_images_random(self, images: list):
         '''
@@ -210,7 +210,7 @@ class ImageStitching:
                 # images.insert(0, result)
         # cv2.imshow("final stitched image : ", images[0])
         # cv2.waitKey(0)
-        cv2.imwrite(f"./output/random/{current_time}.jpeg", images[0])
+        cv2.imwrite(f"./output/random/final.jpeg", images[0])
 
     def stitch_images_greedy(self, images: list):
         '''
@@ -243,7 +243,7 @@ class ImageStitching:
                 images.append(result)
         # cv2.imshow("final stitched image : ", images[0])
         # cv2.waitKey(0)
-        cv2.imwrite(f"./output/greedy/{current_time}.jpeg", images[0])
+        cv2.imwrite(f"./output/greedy/final.jpeg", images[0])
 
     def stitch_images_sequentially(self, images: list):
         '''
@@ -276,7 +276,7 @@ class ImageStitching:
                 images.insert(0, result)
         # cv2.imshow("final stitched image : ", images[0])
         # cv2.waitKey(0)
-        cv2.imwrite(f"./output/sequentially/{current_time}.jpeg", images[0])
+        cv2.imwrite(f"./output/sequentially/final.jpeg", images[0])
 
 
 
