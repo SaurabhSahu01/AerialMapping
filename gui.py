@@ -9,6 +9,7 @@ class ImageProcessingApp:
         self.master = master
         master.title("Image Processing App")
 
+        master.geometry("2000x1000+0+0")
         self.welcome_label = tk.Label(master, text="Welcome! Create your Map")
         self.welcome_label.pack(pady=10)
 
