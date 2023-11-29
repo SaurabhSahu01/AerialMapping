@@ -49,11 +49,7 @@ class ImageProcessingApp:
         if not self.dataset_path:
             messagebox.showwarning("Warning", "Please select a dataset folder.")
             return
-
-        # Create the output directory if it doesn't exist
-        # output_path = "./output_image/output_image.png"
-        # os.makedirs("./output_image", exist_ok=True)
-
+        
         processImages(self.dataset_path, selected_algorithm)
         messagebox.showinfo("Success", "Image processing completed successfully!")
 
