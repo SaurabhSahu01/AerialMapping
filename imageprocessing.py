@@ -151,8 +151,8 @@ class ImageStitching:
 
                 result = self.stitch_2_images([images[starting_index], images[required_index]])
 
-                # cv2.imshow(f"stiched image", result)
-                # cv2.waitKey(0)
+                cv2.imshow(f"stiched image", result)
+                cv2.waitKey(150)
 
                 max_index = max(starting_index, required_index)
                 min_index = min(starting_index, required_index)
@@ -199,8 +199,8 @@ class ImageStitching:
 
                 result = self.stitch_2_images([images[starting_index], images[required_index]])
 
-                # cv2.imshow(f"stiched image", result)
-                # cv2.waitKey(0)
+                cv2.imshow(f"stiched image", result)
+                cv2.waitKey(150)
 
                 max_index = max(starting_index, required_index)
                 min_index = min(starting_index, required_index)
@@ -232,8 +232,8 @@ class ImageStitching:
                 print(f"indices - {indices[0]+1} {indices[1]+1}")
                 result = self.stitch_2_images([images[indices[0]], images[indices[1]]])
 
-                # cv2.imshow(f"stiched image", result)
-                # cv2.waitKey(0)
+                cv2.imshow(f"stiched image", result)
+                cv2.waitKey(150)
 
                 max_index = max(indices[0], indices[1])
                 min_index = min(indices[0], indices[1])
@@ -268,8 +268,8 @@ class ImageStitching:
                 print(f"indices - {starting_index+1} {required_index+1}")
                 result = self.stitch_2_images([images[starting_index], images[required_index]])
 
-                # cv2.imshow(f"stiched image", result)
-                # cv2.waitKey(0)
+                cv2.imshow(f"stiched image", result)
+                cv2.waitKey(150)
 
                 images.pop(required_index)
                 images.pop(starting_index)
